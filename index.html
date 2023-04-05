@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Star Wars Characters</h1>
+    <p>
+      This is a basic HTML page that uses JavaScript to access the SWAPI REST
+      API.
+    </p>
+    <p>
+      It uses the fetch API to get a random character and then calls again to
+      get the planet name and yet again to get a list of all movie titles.
+    </p>
+    <div id="grid">
+      <div class="item"><div class="left-label">Name</div></div>
+      <div class="item" id="name"></div>
+      <div class="item"><div class="left-label">Planet</div></div>
+      <div class="item" id="planet"></div>
+      <div class="item"><div class="left-label">Movies</div></div>
+      <div class="item" id="movies"></div>
+    </div>
+    <a href="#" id="btn1" class="btn">Change Person</a>
+    <script src="mycode.js"></script>
+    <script>
+      //   "use strict";
+
+      //   while (true) {
+      //     let number = prompt("Guess the number: ");
+      //     number = Number(number);
+      //     const randomNum = Math.ceil(Math.random() * 10);
+      //     if (number === randomNum) {
+      //       alert("You WIN!");
+      //       break;
+      //     } else {
+      //       console.log(
+      //         "You guessed ",
+      //         number,
+      //         "but the right number was ",
+      //         randomNum
+      //       );
+      //     }
+      //   }
+    </script>
+  </body>
+</html>

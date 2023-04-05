@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 65px auto;
+    grid-row-gap: 5px;
+}
+
+.item {
+    border: 1px solid;
+    padding: 3px;
+}
+
+.inner-item {
+  padding: 3px;
+  border: 1px dotted;
+  display: inline-block;
+  margin: 1px 3px 1px 0;
+}
+.left-label {
+  padding: 3px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin: 1px 3px 1px 0;
+}
+
+.btn {
+    outline: none;
+    display: block;
+    width: 50%;
+    min-width: 120px;
+    padding: 6px 0;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-bottom: 2px solid #aaa;
+    border-right: 2px solid #aaa;
+    background-color: #fff;
+    background-position: left top;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    height: 22px;
+    line-height: 1.5em;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    box-sizing: content-box;
+    text-decoration: none;
+    box-shadow: 4px 4px 8px inset #ddd;
+  }
+  
+  .btn:hover {
+    /* border: 1px solid #bbb; */
+    text-decoration: none;
+    box-shadow: -4px -4px 8px inset #ddd;
+  }
+  
+  .btn:active {
+    color: #666;
+    /* box-shadow: 4px 4px 8px inset #ddd; */
+  }
+  
